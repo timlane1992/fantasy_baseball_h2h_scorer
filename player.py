@@ -3,10 +3,11 @@ This module houses the Player class
 '''
 
 import logging
+import os
 import pandas as pd
 
 
-player_id_df = pd.read_csv('player_id_map.csv')
+player_id_df = pd.read_csv(os.path.join('data', 'player_id_map.csv'))
 
 
 def get_bref_id_for_player(name):
