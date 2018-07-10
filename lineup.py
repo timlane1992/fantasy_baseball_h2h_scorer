@@ -99,3 +99,34 @@ class Lineup(object):
         if not self.iterator_list:
             raise StopIteration
         return self.iterator_list.pop(0)
+
+
+    def get_hitters(self):
+        '''
+        Return a list containing the Player objects for all of the
+        position players in the lineup.
+        :return: list of Player objects
+        '''
+        return [
+            self.catcher,
+            self.firstbase,
+            self.secondbase,
+            self.thirdbase,
+            self.shortstop,
+            self.outfielders[0],
+            self.outfielders[1],
+            self.outfielders[2],
+            self.dh
+        ]
+
+
+    def get_pitchers(self):
+        '''
+        Return a list containing the Player objects for all of the
+        pitchers in the lineup
+        :return: list of Player objects
+        '''
+        pitchers = list()
+        pitchers.extend(self.starting_pitchers)
+        pitchers.extend(self.relief_pitchers)
+        return pitchers
