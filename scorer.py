@@ -1,4 +1,3 @@
-import numpy
 import re
 
 # TODO: allow user to specify scoring formula via some external configuration?
@@ -52,13 +51,20 @@ def get_pitcher_score(game_logs):
     num_outs = 0
     num_wins = 0
     num_saves = 0
-    num_game_finishes = 0  # TODO: is it possible to calculate game finishes from baseball reference game logs?
+    num_game_finishes = 0
     num_bb_or_hbp = 0
     num_hits = 0
     num_hrs_allowed = 0
     num_losses = 0
 
     for game_log in game_logs:
+
+        # If a pitcher finished a game, the 'Inngs' field will have a
+        # trailing '-GF'
+        if type(game_log['Inngs']) != str:
+            pass  # Just to make sure there's no type errors
+        elif re.search(r'-GF(\(\d+\))?$', game_log['Inngs']):
+            num_game_finishes += 1
 
         # Getting number of outs requires parsing IP field
         innings_pitched_fields = str(game_log['IP']).split('.')
@@ -74,7 +80,6 @@ def get_pitcher_score(game_logs):
             num_losses += 1
         elif re.search(r'^S', game_log['Dec']):
             num_saves += 1
-            num_game_finishes += 1
 
         num_bb_or_hbp += int(game_log['BB'])
         num_bb_or_hbp += int(game_log['HBP'])
