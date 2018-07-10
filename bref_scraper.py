@@ -3,6 +3,7 @@ This module provides functions for scraping data from
 baseballreference.com
 '''
 
+import numpy
 import pandas as pd
 import urllib2
 from bs4 import BeautifulSoup
@@ -61,6 +62,6 @@ def get_game_logs(bref_id, start, end):
 
     # remove 'label row' entries
     # identified by the number of walks column not being a digit
-    game_dicts_list = [game_dict for game_dict in game_dicts_list if type(game_dict['Gcar']) not in [float, int] and game_dict['Gcar'].isdigit()]
+    game_dicts_list = [game_dict for game_dict in game_dicts_list if type(game_dict['Gcar']) not in [float, int, numpy.float64] and game_dict['Gcar'].isdigit()]
 
     return game_dicts_list
