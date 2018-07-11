@@ -112,11 +112,15 @@ def get_game_logs(bref_id, start, end, is_batter):
 
         # Get date string
         # Handle weird format for days where doubleheaders were played: <date> (<game number>)
+        # Also handle weird format for suspended games
         year = start.year
         game_date = sub_spaces_for_non_ascii(game_dict['Date'])
         doubleheader_match = re.search(r'([A-Za-z]+\s+\d+).*\((1|2)\)', game_date)
+	suspended_match = re.search(r'([A-Za-z]+\s+\d+).*susp', game_date)
         if doubleheader_match:
             date_string = ' '.join([doubleheader_match.group(1).rstrip(), str(year)])
+	elif suspended_match:
+            date_string = ' '.join([suspended_match.group(1).rstrip(), str(year)])
         else:
             date_string = ' '.join([game_date, str(year)])
 
