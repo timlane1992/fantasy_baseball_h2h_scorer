@@ -1,0 +1,28 @@
+{
+    "lineup": {
+        "c": "robinson chirinos",
+        "1b": "brandon belt",
+        "2b": "dee gordon",
+        "3b": "kyle seager",
+        "ss": "tim beckham",
+        "of": [
+            "mike trout",
+            "david peralta",
+            "gregory polanco"
+        ],
+        "dh": "evan longoria",
+        "sp": [
+            "jose quintana",
+            "walker buehler"
+        ],
+        "rp": [
+            "felipe rivero",
+            "jordan hicks",
+            "kenley jansen"
+        ]
+    },
+    "start_date": "04-23-2018",
+    "end_date": "04-29-2018",
+    "expected_hitters_score": 126,
+    "expected_pitchers_score": 54
+}

@@ -1,0 +1,28 @@
+{
+    "lineup": {
+        "c": "wilson ramos",
+        "1b": "brandon belt",
+        "2b": "dee gordon",
+        "3b": "kyle seager",
+        "ss": "tim beckham",
+        "of": [
+            "mike trout",
+            "dexter fowler",
+            "gregory polanco"
+        ],
+        "dh": "ian happ",
+        "sp": [
+            "stephen strasburg",
+            "kyle hendricks"
+        ],
+        "rp": [
+            "felipe rivero",
+            "shane greene",
+            "kenley jansen"
+        ]
+    },
+    "start_date": "03-29-2018",
+    "end_date": "04-08-2018",
+    "expected_hitters_score": 81,
+    "expected_pitchers_score": 36
+}
