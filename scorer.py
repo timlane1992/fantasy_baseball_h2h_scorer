@@ -1,3 +1,5 @@
+from __future__ import print_function
+import bref_scraper
 import re
 
 # TODO: allow user to specify scoring formula via some external configuration?
@@ -101,3 +103,37 @@ def get_pitcher_score(game_logs):
     final_score -= 4 * num_losses
 
     return final_score
+
+
+def generate_lineup_report(lineup, start_date, end_date):
+    '''
+    :param lineup: Lineup object; lineup on which to report
+    :param start_date: datetime; start of time of interest
+    :param end_date: datetime; end of time of interest
+    :return: None (for right now, might return a data structure in the future)
+    '''
+    # TODO: take in a file path with all relevant data instead?
+    hitters = lineup.get_hitters()
+    pitchers = lineup.get_pitchers()
+    total_score = 0
+
+    print('---- GENERATING HITTER SCORES ----')
+    for hitter in hitters:
+        game_logs = bref_scraper.get_game_logs(hitter.baseball_ref_id, start_date, end_date, True)
+        score = get_hitter_score(game_logs)
+        total_score += score
+        print('    {hitter}: {score}'
+              .format(hitter=hitter,
+                      score=score))
+
+    print('---- GENERATING PITCHER SCORES ----')
+    for pitcher in pitchers:
+        game_logs = bref_scraper.get_game_logs(pitcher.baseball_ref_id, start_date, end_date, False)
+        score = get_pitcher_score(game_logs)
+        total_score += score
+        print('    {pitcher}: {score}'
+              .format(pitcher=pitcher,
+                      score=score))
+
+    print('--------')
+    print('TOTAL SCORE: {}'.format(total_score))
