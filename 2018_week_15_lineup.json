@@ -1,0 +1,27 @@
+{
+    "team_name": "Suge Knights",
+    "lineup": {
+        "c": "wilson ramos",
+        "1b": "max muncy",
+        "2b": "dee gordon",
+        "3b": "kyle seager",
+        "ss": "daniel robertson",
+        "of": [
+            "mike trout",
+            "brandon belt",
+            "adam eaton"
+        ],
+        "dh": "david peralta",
+        "sp": [
+            "garrett richards",
+            "kyle hendricks"
+        ],
+        "rp": [
+            "felipe rivero",
+            "jordan hicks",
+            "kenley jansen"
+        ]
+    },
+    "start_date": "07-09-2018",
+    "end_date": "07-15-2018"
+}

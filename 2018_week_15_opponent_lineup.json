@@ -1,0 +1,27 @@
+{
+    "team_name": "EIB",
+    "lineup": {
+        "c": "yadier molina",
+        "1b": "josh bell",
+        "2b": "cesar hernandez",
+        "3b": "mike moustakas",
+        "ss": "gleyber torres",
+        "of": [
+            "andrew benintendi",
+            "rhys hoskins",
+            "austin meadows"
+        ],
+        "dh": "joey gallo",
+        "sp": [
+            "danny duffy",
+            "steven matz"
+        ],
+        "rp": [
+            "dellin betances",
+            "david robertson",
+            "chris devenski"
+        ]
+    },
+    "start_date": "07-09-2018",
+    "end_date": "07-15-2018"
+}
