@@ -12,26 +12,14 @@ import sys
 import pandas as pd
 
 
-def get_bref_id_for_player(name):
+def main():
     '''
-    :param name: str; name of player whose baseball ref id is desired
-    :return: str; baseball ref id for specified player
+    Run the script
     '''
-    try:
-        logging.debug('Baseball Ref ID for player {name} is {id}'
-                      .format(name=name, id=baseball_ref_id))
-        return baseball_ref_id
-    except (IndexError, KeyError):
-        logging.warn('Unable to find baseball reference ID for '
-                     'player {}'
-                     .format(name))
-        raise
-
-
-if __name__ == '__main__':
-
     # Get name of player whose ID to lookup
-    parser = argparse.ArgumentParser(description='Get the baseball reference ID for a player based on his name')
+    parser = argparse.ArgumentParser(
+        description='Get the baseball reference ID for a player based on his name'
+    )
     parser.add_argument('NAME')
     cl_args = parser.parse_args()
 
@@ -45,11 +33,16 @@ if __name__ == '__main__':
     # Figure out which entries have names that match
     bool_series = player_id_df['mlb_name'].apply(lambda x: x.lower()) == mod_name
 
-    # If there were no matching entires, 
+    # If there were no matching entires, print error message
     if not any(bool_series):
         sys.exit('Unable to find baseball reference ID for name: {}'.format(cl_args.NAME))
-    else:
-        baseball_ref_ids = player_id_df[bool_series]['bref_id'].values
-        print('Baseball reference IDs corresponding to players with the name: {}'.format(cl_args.NAME))
-        for baseball_ref_id in baseball_ref_ids:
-            print('    {}'.format(baseball_ref_id))
+
+    # Otherwise print all matching entries
+    baseball_ref_ids = player_id_df[bool_series]['bref_id'].values
+    print('Baseball reference IDs corresponding to players with the name: {}'.format(cl_args.NAME))
+    for baseball_ref_id in baseball_ref_ids:
+        print('    {}'.format(baseball_ref_id))
+
+
+if __name__ == '__main__':
+    main()
