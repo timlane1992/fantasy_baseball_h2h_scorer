@@ -1663,7 +1663,7 @@ mlb_id,mlb_name,mlb_pos,mlb_team,mlb_team_long,bats,throws,birth_year,bp_id,bref
 502082,Lonnie Chisenhall,RF,CLE,Cleveland Indians,L,R,1988,58147,chiselo01,Lonnie Chisenhall,1697835,Lonnie Chisenhall,RF,30523,Lonnie Chisenhall,RF,7571,Lonnie Chisenhall,3B/OF,chiselo01,8852,Lonnie Chisenhall,RF,chisl001,Lonnie Chisenhall,20110627,8852,Lonnie Chisenhall,RF,CF3,5349,Lonnie Chisenhall,OF
 456715,Lorenzo Cain,CF,KC,Kansas City Royals,R,R,1986,47202,cainlo01,Lorenzo Cain,1103279,Lorenzo Cain,CF,29416,Lorenzo Cain,CF,9077,Lorenzo Cain,OF,cainlo01,8762,Lorenzo Cain,CF,cainl001,Lorenzo Cain,20100716,8762,Lorenzo Cain,RF,CF1,1692,Lorenzo Cain,OF
 453974,Lou Marson,C,PHI,Philadelphia Phillies,R,R,1986,46384,marsolo01,Lou Marson,1184318,Lou Marson,C,29241,Lou Marson,C,7610,Lou Marson,C,marsolo01,8356,Lou Marson,C,marsl001,Lou Marson,20080928,8356,Lou Marson,C,,1732,Lou Marson,Util
-642152,Lou Trivino,P,OAK,Oakland Athletics,R,R,1991,102770,,,2228461,Lou Trivino,RP,35844,Lou Trivino,RP,sa737939,Lou Trivino,P,,,,,,,22220202,,,,,,,
+642152,Lou Trivino,P,OAK,Oakland Athletics,R,R,1991,102770,trivilo01,,2228461,Lou Trivino,RP,35844,Lou Trivino,RP,sa737939,Lou Trivino,P,,,,,,,22220202,,,,,,,
 488786,Louis Coleman,P,LAD,Los Angeles Dodgers,R,R,1986,59223,colemlo01,Louis Coleman,1793165,Louis Coleman,RP,31115,Louis Coleman,RP,9720,Louis Coleman,P,colemlo01,8909,Louis Coleman,P,colel001,Louis Coleman,20110421,8909,Louis Coleman,RP,,8690,Louis Coleman,RP
 666971,Lourdes Gurriel,2B,TOR,Toronto Blue Jays,R,R,1993,109138,,,2431991,Lourdes Gurriel,SS,36040,Lourdes Gurriel,SS,,,,,10616,Lourdes Gurriel,LF,,,22220202,10616,Lourdes Gurriel,LF,,,,
 446263,Lucas Duda,1B,TB,Tampa Bay Rays,L,R,1986,56196,dudalu01,Lucas Duda,1601528,Lucas Duda,1B,30953,Lucas Duda,1B,2502,Lucas Duda,1B/OF,dudalu01,8796,Lucas Duda,1B,dudal001,Lucas Duda,20100901,8796,Lucas Duda,1B,1B1,5229,Lucas Duda,1B
@@ -2678,3 +2678,4 @@ mlb_id,mlb_name,mlb_pos,mlb_team,mlb_team_long,bats,throws,birth_year,bp_id,bref
 501660,Zoilo Almonte,LF,ATL,Atlanta Braves,S,R,1989,50911,almonzo01,Zoilo Almonte,1812890,Zoilo Almonte,LF,31469,Zoilo Almonte,LF,6732,Zoilo Almonte,OF,almonzo01,9436,Zoilo Almonte,LF,almoz001,Zoilo Almonte,20130619,9436,Zoilo Almonte,LF,,9387,Zoilo Almonte,OF
 642715,Willy Adames,SS,TB,Tampa Bay Rays,R,R,1995,103209,adamewi01,,2165933,Willy Adames,SS,33675,Willy Adames,SS,sa736655,Willy Adames,,,9893,Willy Adames,SS,,,22220202,9893,Willy Adames,SS,,18407,Willy Adames,SS
 ,Jordan Hicks,P,STL,St. Louis Cardinals,R,R,,,hicksjo03,Jordan Hicks,,,,,,,,,,,,,,,,,,,,,,,
+,Kyle Tucker,,,,,,,,tuckeky01,Kyle Tucker,,,,,,,,,,,,,,,,,,,,,,,
