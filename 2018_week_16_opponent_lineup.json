@@ -1,0 +1,27 @@
+{
+    "team_name": "Creeping Death",
+    "lineup": {
+        "c": "john hicks",
+        "1b": "joey votto",
+        "2b": "brian dozier",
+        "3b": "nolan arenado",
+        "ss": "xander bogaerts",
+        "of": [
+            "j.d. martinez",
+            "christian yelich",
+            "wil myers"
+        ],
+        "dh": "jesus aguilar",
+        "sp": [
+            "jon lester",
+            "miles mikolas"
+        ],
+        "rp": [
+            "hector rondon",
+            "pedro strop",
+            "jeurys familia"
+        ]
+    },
+    "start_date": "07-19-2018",
+    "end_date": "07-22-2018"
+}
