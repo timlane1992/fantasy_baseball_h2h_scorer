@@ -1,0 +1,27 @@
+{
+    "team_name": "God of Thunder",
+    "lineup": {
+        "c": "jorge alfaro",
+        "1b": "yulieski gurriel",
+        "2b": "whit merrifield",
+        "3b": "miguel andujar",
+        "ss": "trevor story",
+        "of": [
+            "charlie blackmon",
+            "justin upton",
+            "corey dickerson"
+        ],
+        "dh": "ryon healy",
+        "sp": [
+            "luis severino",
+            "julio teheran"
+        ],
+        "rp": [
+            "edwin diaz",
+            "bud norris",
+            "fernando rodney"
+        ]
+    },
+    "start_date": "07-23-2018",
+    "end_date": "07-29-2018"
+}

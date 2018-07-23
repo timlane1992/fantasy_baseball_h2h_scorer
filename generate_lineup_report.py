@@ -40,8 +40,8 @@ def generate_report(data_path):
 
 
 def main():
-        my_team_path = '2018_week_16_lineup.json'
-        oppponent_team_path = '2018_week_16_opponent_lineup.json'
+        my_team_path = '2018_week_17_lineup.json'
+        oppponent_team_path = '2018_week_17_opponent_lineup.json'
         generate_report(my_team_path)
         generate_report(oppponent_team_path)
 
