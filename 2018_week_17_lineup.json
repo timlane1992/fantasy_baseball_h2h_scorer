@@ -1,0 +1,27 @@
+{
+    "team_name": "Suge Knights",
+    "lineup": {
+        "c": "omar narvaez",
+        "1b": "max muncy",
+        "2b": "ian kinsler",
+        "3b": "kyle seager",
+        "ss": "ketel marte",
+        "of": [
+            "mike trout",
+            "brandon belt",
+            "adam eaton"
+        ],
+        "dh": "david peralta",
+        "sp": [
+            "marcus stroman",
+            "kyle hendricks"
+        ],
+        "rp": [
+            "felipe rivero",
+            "lou trivino",
+            "kenley jansen"
+        ]
+    },
+    "start_date": "07-23-2018",
+    "end_date": "07-29-2018"
+}
