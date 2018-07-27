@@ -1,0 +1,27 @@
+{
+    "team_name": "Suge Knights",
+    "lineup": {
+        "c": "j.t. realmuto",
+        "1b": "carlos santana",
+        "2b": "jose altuve",
+        "3b": "eugenio suarez",
+        "ss": "francisco lindor",
+        "of": [
+            "cody bellinger",
+            "a.j. pollock",
+            "juan soto"
+        ],
+        "dh": "asdrubal cabrera",
+        "sp": [
+            "jose berrios",
+            "kenta maeda"
+        ],
+        "rp": [
+            "kirby yates",
+            "zach britton",
+            "josh hader"
+        ]
+    },
+    "start_date": "07-23-2018",
+    "end_date": "07-29-2018"
+}
