@@ -1,0 +1,27 @@
+{
+    "team_name": "Suge Knights",
+    "lineup": {
+        "c": "elias diaz",
+        "1b": "paul goldschmidt",
+        "2b": "ozzie albies",
+        "3b": "jake lamb",
+        "ss": "andrelton simmons",
+        "of": [
+            "george springer",
+            "ender inciarte",
+            "jake bauers"
+        ],
+        "dh": "nelson cruz",
+        "sp": [
+            "vincent velasquez",
+            "trevor bauer"
+        ],
+        "rp": [
+            "raisel iglesias",
+            "aroldis chapman",
+            "joakim soria"
+        ]
+    },
+    "start_date": "07-30-2018",
+    "end_date": "08-05-2018"
+}
