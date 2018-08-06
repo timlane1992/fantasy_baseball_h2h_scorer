@@ -1,0 +1,27 @@
+{
+    "team_name": "Dirty Sox",
+    "lineup": {
+        "c": "j.t. realmuto",
+        "1b": "carlos santana",
+        "2b": "asdrubal cabrera",
+        "3b": "justin turner",
+        "ss": "francisco lindor",
+        "of": [
+            "cody bellinger",
+            "a.j. pollock",
+            "juan soto"
+        ],
+        "dh": "eugenio suarez",
+        "sp": [
+            "carlos carrasco",
+            "zack greinke"
+        ],
+        "rp": [
+            "zach britton",
+            "josh hader",
+            "kirby yates"
+        ]
+    },
+    "start_date": "08-06-2018",
+    "end_date": "08-12-2018"
+}
