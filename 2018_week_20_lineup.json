@@ -1,0 +1,27 @@
+{
+    "team_name": "Suge Knights",
+    "lineup": {
+        "c": "omar narvaez",
+        "1b": "max muncy",
+        "2b": "allen hanson",
+        "3b": "matt chapman",
+        "ss": "ketel marte",
+        "of": [
+            "mike trout",
+            "steven souza jr.",
+            "david peralta"
+        ],
+        "dh": "brandon belt",
+        "sp": [
+            "jose quintana",
+            "walker buehler"
+        ],
+        "rp": [
+            "felipe rivero",
+            "lou trivino",
+            "jose leclerc"
+        ]
+    },
+    "start_date": "08-13-2018",
+    "end_date": "08-19-2018"
+}
