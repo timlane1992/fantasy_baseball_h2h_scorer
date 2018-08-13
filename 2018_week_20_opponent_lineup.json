@@ -1,25 +1,25 @@
 {
     "team_name": "Billy Ball Sacks",
     "lineup": {
-        "c": "",
-        "1b": "",
-        "2b": "",
-        "3b": "",
-        "ss": "",
+        "c": "elias diaz",
+        "1b": "paul goldschmidt",
+        "2b": "ozzie albies",
+        "3b": "enrique hernandez",
+        "ss": "andrelton simmons",
         "of": [
-            "",
-            "",
-            ""
+            "stephen piscotty",
+            "jake bauers",
+            "ender inciarte"
         ],
-        "dh": "",
+        "dh": "nelson cruz",
         "sp": [
-            "",
-            ""
+            "masahiro tanaka",
+            "reynaldo lopez"
         ],
         "rp": [
-            "",
-            "",
-            ""
+            "aroldis chapman",
+            "raisel iglesias",
+            "ross stripling"
         ]
     },
     "start_date": "08-13-2018",
