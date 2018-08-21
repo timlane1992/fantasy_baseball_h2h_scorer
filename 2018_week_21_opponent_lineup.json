@@ -1,25 +1,25 @@
 {
-    "team_name": "",
+    "team_name": "Dakota County Fighting Sue",
     "lineup": {
-        "c": "",
-        "1b": "",
-        "2b": "",
-        "3b": "",
-        "ss": "",
+        "c": "salvador perez",
+        "1b": "wilmer flores",
+        "2b": "scooter gennett",
+        "3b": "manny machado",
+        "ss": "tim anderson",
         "of": [
-            "",
-            "",
-            ""
+            "mookie betts",
+            "khris davis",
+            "andrew mccutchen"
         ],
-        "dh": "",
+        "dh": "david dahl",
         "sp": [
-            "",
-            ""
+            "derek holland",
+            "carlos rodon"
         ],
         "rp": [
-            "",
-            "",
-            ""
+            "brad boxberger",
+            "collin mchugh",
+            "seranthony dominguez"
         ]
     },
     "start_date": "08-20-2018",
